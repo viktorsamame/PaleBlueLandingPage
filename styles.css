@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+
+body{
+    background-color: #FFFFFF;
+}
+.navbar{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-transform: uppercase;
+   font-weight: bold;
+   background-color: #FFFFFF !important;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #00f3bb;
+    text-decoration: line-through;
+    
+}
+
+.nav-item{
+    margin-right: 25px;
+}
+
+/*Heroe Section*/
+
+.heroe-section{
+    padding-top: 200px;
+}
+
+h1{
+    font-weight: bolder;
+    display: inline;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 64px;
+    color: #060A24;
+    letter-spacing: 0;
+}
+
+.line{
+    text-decoration: line-through;
+}
+.dot{
+    color:#0000EC ;
+}
+
+
+.heroe-parrafo{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    color: #060A24;
+    line-height: 24px;
+}
+
+.btn-conoce{
+    background-image: linear-gradient(to right, #a8ff78, #78ffd6);
+    width: 226px;
+    height: 56px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0;
+    transition: all 0.8s;
+
+}
+
+.btn-conoce:hover{
+    background-image: linear-gradient(to left, #a8ff78, #78ffd6);
+    transition: all 0.8s;
+}
+
+/*SECCION EPISODIOS*/
+
+.background{
+    background-color: #0000E5;
+    clip-path: polygon(0 18%, 100% 0, 100% 82%, 0% 100%);
+    padding-bottom: 250px;
+}
+
+.titulo-episodio{
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-top: 280px;
+    font-size: 48px;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.iframe{
+    height: 232px;
+    width: 90%;
+    margin: 10px;
+}
+
+.iframe .ultimo{
+    padding-bottom: 550px;
+}
+
+
+/*NOSOTROS*/
+.imagen-telefono{
+    width: 457px;
+    height: auto;
+    margin-top: -230px;
+    position: relative;
+   
+}
+
+.text-nosotros{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 24px;
+
+}
+
+.text-beneficios{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+
+/*NOVEDADES*/
+.novedades {
+    height: 518px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.text-novedades{
+    padding-top: 150px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    margin-bottom: 55px;
+}
+
+.btn-novedades{
+
+    width: 250px;
+}
+
+
+/*GALERIA*/
+
+.galeria img{
+    width: 100%;
+    height: 250px;
+}
+
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 80px;
+}
+
+.col-footer ul li{
+    padding: 15px;
+    list-style: none;
+}
+
+.col-footer ul li a{
+    text-decoration: none;
+}

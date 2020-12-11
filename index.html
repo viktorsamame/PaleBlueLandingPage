@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Podcast Channel</title>
+
+    <link rel="icon" href="Images/logo.svg">
+  </head>
+  <body data-spy="scroll" data-target='#main-navbar'>
+
+    <header class="m-5 mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixed-top" id="main-navbar">
+            <div class="container-fluid">
+                <!--Logo-->
+              <a class="navbar-brand" href="#"><img style="width: 36px; height: 36px;" src="Images/logo.svg" alt=""></a>
+    
+              <!--Boton Collapse-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <!--Boton Collapse-->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#episodios">Episodios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#entrevistas">Entrevistas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#topicos">Tópicos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+    </header>
+
+    <main>
+      <!--Secciín Principal HEROE-->
+        <section class="heroe-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8">
+                        <h1 class="display-3">Hello <span class="line">World</span> Pale blue dot<span class="dot">.</span></h1>
+                        <p class="heroe-parrafo">
+                            El portal de podcasts que explora el mundo de la programación y <br>
+                            la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+                        </p>
+                        <button class="btn btn-conoce">Conoce más</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <!--Secciín Episodios-->
+        <section class="background">
+          <div class="container" id="episodios">
+            <h2 class="titulo-episodio">Episodios</h2>
+            <div class="row spotify">
+              <div class="col-md-6">
+                <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" class="iframes" allow="encrypted-media"></iframe>
+              </div>
+
+              <div class="col-md-6">
+                <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" class="iframes" allow="encrypted-media"></iframe>
+              </div>
+
+            </div>
+
+            <div class="row spotify">
+              <div class="col-md-6">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" class="iframe" allow="encrypted-media"></iframe>
+              </div>
+
+              <div class="col-md-6">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" class="iframe ultimo" allow="encrypted-media"></iframe>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+         <!--Sección Nosotros-->
+         <section class="nosotros">
+            <div class="container">
+              <div class="row d-flex">
+                <div class="col-md-6">
+                  <img id="nosotros" src="Images/phone.png" class="img-fluid imagen-telefono" alt="">
+                </div>
+                <div class="col-md-6 col-xl-4">
+                  <h3>De dónde venimos</h3>
+                  <p class="text-nosotros">
+                    Our posturings, our imagined self-importance,
+                    the delusion that we have some privileged
+                    position in the Universe, are challenged by this point
+                    of pale light.
+
+                    Our planet is a lonely speck in the great
+                    enveloping cosmic dark. In our obscurity, in all
+                    this vastness, there is no hint that help will
+                    come from elsewhere to save us from ourselves.
+                  </p>
+                </div>
+              </div>
+            </div>
+         </section>
+
+         <!--SECCION GALERIA DE IMAGENES-->
+         <div class="container mt-5 mb-5" id="entrevistas">
+           <h3 class="display-5 mb-3">Invitados Estelares</h3>
+           <div class="row">
+             <div class="col-md-6">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Images/AnE.R.A.Univac1103computerinthe1950s.png" class="d-block w-100" alt="...">
+                    
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Images/ComputeroperatorswithanEniac—theworld’sfirstprogrammablegeneral-purposecomputer.png" class="d-block w-100" alt="...">
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/grace-hopper.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+               
+              </div>
+
+            <div class="col-md-6">
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Images/Margaret_Hamilton.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Images/Katie-Bouman.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Images/susan-kare.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+            </div>
+             
+           </div>
+         </div>
+
+         
+         
+       
+
+          <!--Seccion Beneficios-->
+         <section class="beneficios mb-5 mt-5" id="topicos">
+            <div class="container">
+              <h2 class="text-center mt-3 mb-5">Nuestros Temas</h2>
+              <div class="row text-center">
+                <div class="col-md-3">
+                  <img src="Images/icon1.svg" alt="">
+                  <p class="text-beneficios">Trabajo Remoto</p>
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/icon2.svg" alt="">
+                  <p class="text-beneficios">Repensando <br> la Programación</p>
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/icon3.svg" alt="">
+                  <p class="text-beneficios">Bases del Código</p>
+                </div>
+                <div class="col-md-3">
+                  <img src="Images/icon4.svg" alt="">
+                  <p class="text-beneficios">Seguridad Informática</p>
+                </div>
+              </div>
+            </div>
+         </section>
+
+         <section class="novedades">
+            <div class="container text-center">
+              <h2 class="text-novedades text-center">Entérate de las últimas novedades</h2>
+              <button class="btn btn-info btn-lg btn-novedades" type="button">
+                  Escucha los episodios
+              </button>
+            </div>
+         </section>
+    </main>
+    
+
+    <footer class="footer">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col">
+              <p class="text-center">2020 Victor Samamé</p>
+            </div>
+
+            <div class="col col-footer">
+              <ul class="d-flex">
+                <li><a href=""> Facebook</a></li>
+                <li><a href=""> Instagram</a></li>
+                <li><a href=""> TikTok</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
+  
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
